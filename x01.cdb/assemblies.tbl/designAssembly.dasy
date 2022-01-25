@@ -1,0 +1,10 @@
+# EXAMPLE DESIGN ASSEMBLY
+
+type =  K&C
+
+ref.asy.full_vehicle     = '<x02>/assemblies.tbl/MDI_Demo_Vehicle.asy'
+ref.asy.front_suspension = '<x01>/assemblies.tbl/mdi_front_vehicle_user1.asy'
+ref.asy.rear_suspension  = '<x01>/assemblies.tbl/leaf_spring_example.asy'
+ref.asy.front_actuation  = '<x01>/assemblies.tbl/actuation_example.asy'
+ref.asy.bush_front       = '<x02>/assemblies.tbl/spmm_example.asy'
+ref.asy.bush_bad         = '<x01>/assemblies.tbl/spmm_example_bad.asy'

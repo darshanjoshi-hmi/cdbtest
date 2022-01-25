@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<afc
+ xmlns="http://www.mscsoftware.com/:vfc"
+ xmlns:afc="http://www.mscsoftware.com/:afc"
+>
+     <afc:Bibliography
+     >
+          <File
+           schema="afc"
+           version="2.0"
+           URI="C:/Users/e6072/MDI_FRONT_SUSPENSION_XML.xml"
+           publicationDate="2017-09-26 18:57:30+02:00"
+          />
+          <Revision
+           version="2"
+          />
+          <Corporation
+           author="MSC Software"
+           URI="http://www.mscsoftware.com/"
+          />
+          <Author
+           user="e6072"
+           name="-unknown name-"
+          />
+          <Environment
+           hostName="LJZXZWZ1"
+           operatingSystem="MS Windows NT 6.1"
+          />
+          <Application
+           name="MSC/AFC"
+           version="02.00.00"
+          />
+     </afc:Bibliography>
+     <afc:Units
+     >
+          <afc:UnitSetting
+           name="angle"
+           current="deg"
+          />
+          <afc:UnitSetting
+           name="current"
+           current="ampere"
+          />
+          <afc:UnitSetting
+           name="force"
+           current="newton"
+          />
+          <afc:UnitSetting
+           name="length"
+           current="mm"
+          />
+          <afc:UnitSetting
+           name="luminosity"
+           current="candela"
+          />
+          <afc:UnitSetting
+           name="mass"
+           current="kg"
+          />
+          <afc:UnitSetting
+           name="quantity"
+           current="mole"
+          />
+          <afc:UnitSetting
+           name="solidAngle"
+           current="steradian"
+          />
+          <afc:UnitSetting
+           name="temperature"
+           current="kelvin"
+          />
+          <afc:UnitSetting
+           name="time"
+           current="sec"
+          />
+     </afc:Units>
+     <Subsystem
+      active="true"
+      definition="mdids://acar_shared/templates.tbl/_macpherson.tpl"
+      userDefined="false"
+      minorRole="front"
+      majorRole="suspension"
+     >
+          <Comment
+           userDefined="false"
+          >
+            <![CDATA[MacPherson Strut Suspension]]>
+          </Comment>
+          <HardPointPair
+           name="lca_front"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(-200 -400 225)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="lca_rear"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(200 -390 240)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="lca_outer"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(-20 -700.0000000000001 210)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="wheel_center"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -700.0000000000001 325)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="tierod_outer"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(150 -690.0000000000001 300)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="strut_lwr_mount"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(40 -625 525)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="top_mount"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(57.5 -603.8 790)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="subframe_front"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(-400 -550 250)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="subframe_rear"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(400 -450 225)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="tierod_inner"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(200 -400 300)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="spring_lwr_seat"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(40 -625 525)"
+               />
+          </HardPointPair>
+          <HardPointPair
+           name="drive_shaft_inr"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <HardPoint
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -200 225)"
+               />
+          </HardPointPair>
+          <Part
+           name="subframe"
+           active="true"
+           userDefined="false"
+           location="(0 0 0)"
+           cm_location="(0 0 150)"
+           im_location="(0 0 0)"
+           part_num="-1"
+           mass="50"
+           ixx="1"
+           iyy="1"
+           izz="1"
+           ixy="0"
+           ixz="0"
+           iyz="0"
+           use_offdiagonal_terms="false"
+           default_cg="false"
+           user_sprung="true"
+           percent_sprung="100"
+          >
+               <Orientation
+                name="orientation"
+                active="true"
+                userDefined="false"
+                type="zpxp"
+                xp="(1 0 0)"
+                zp="(0 0 1)"
+                euler="(0 0 0)"
+               />
+          </Part>
+          <PartPair
+           name="lower_control_arm"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(-6.666666666666667 -496.6666666666667 225)"
+                cm_location="(0 0 0)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="5.0911573156"
+                ixx="26908.978152999996"
+                iyy="60577.701004"
+                izz="33765.551131"
+                ixy="0"
+                ixz="3142.3266008532996"
+                iyz="0"
+                use_offdiagonal_terms="true"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="50"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(-0.9972332421165084 0.06766317571728252 -0.030782388952926388)"
+                     zp="(-0.06525667548118487 -0.9951643010880616 -0.07341375991633253)"
+                     euler="(0 0 0)"
+                    />
+                    <Arm
+                     name="lower_control_arm"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     thickness="10.6823911464"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="upright"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -700 325)"
+                cm_location="(8.8120104439 5.874673629200001 -8.8120104439)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="20"
+                ixx="405.2945280663"
+                iyy="602.0236784394"
+                izz="405.2945280663"
+                ixy="91.24348552399998"
+                ixz="18.221701990699998"
+                iyz="-91.24348552399998"
+                use_offdiagonal_terms="true"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="0"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="zpxp"
+                     xp="(1 0 0)"
+                     zp="(0 0 1)"
+                     euler="(0 0 0)"
+                    />
+                    <Link
+                     name="upright_lower"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     radius="10"
+                     length="0"
+                    />
+                    <Link
+                     name="upright_tierod"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     radius="10"
+                     length="0"
+                    />
+                    <Link
+                     name="upright_upper"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     radius="10"
+                     length="0"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="upper_strut"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(48.75 -614.4000000000001 657.5)"
+                cm_location="(0 0 0)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="5"
+                ixx="1"
+                iyy="1"
+                izz="1"
+                ixy="0"
+                ixz="0"
+                iyz="0"
+                use_offdiagonal_terms="false"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="100"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(0.9978266147157041 -4.996003610813204e-16 -0.06589421040575451)"
+                     zp="(0.06568526256904957 0.07957300379793468 0.9946625474741717)"
+                     euler="(0 0 0)"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="tierod"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(174.99999999999997 -545.0000000000001 300)"
+                cm_location="(0 0 0)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="0.4615715907"
+                ixx="3338.3934586225"
+                iyy="3338.3934586225"
+                izz="14.7702909037"
+                ixy="0"
+                ixz="0"
+                iyz="0"
+                use_offdiagonal_terms="false"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="50"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(0 0 1)"
+                     zp="(-0.16990691650764592 -0.985460115744348 0)"
+                     euler="(0 0 0)"
+                    />
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[Tierod]]>
+                    </Comment>
+                    <Link
+                     name="tierod"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     radius="8"
+                     length="0"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="spindle"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -700 325)"
+                cm_location="(0 0 -25)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="1.1028403931"
+                ixx="477.8975036678"
+                iyy="477.8975036678"
+                izz="496.2781768857001"
+                ixy="0"
+                ixz="0"
+                iyz="0"
+                use_offdiagonal_terms="false"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="0"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(1 0 0)"
+                     zp="(0 -1 0)"
+                     euler="(0 0 0)"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="drive_shaft"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -200 225)"
+                cm_location="(0 0 -289.8759391334)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="3.4241938228"
+                ixx="80267.877152"
+                iyy="80267.877152"
+                izz="603.5842028933"
+                ixy="0"
+                ixz="0"
+                iyz="0"
+                use_offdiagonal_terms="false"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="50"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(1.5713070079158422e-16 -0.2169304578186563 -0.9761870601839527)"
+                     zp="(1.1954843586233423e-16 0.9761870601839527 -0.2169304578186563)"
+                     euler="(0 0 0)"
+                    />
+                    <Link
+                     name="drive_shaft"
+                     active="true"
+                     userDefined="false"
+                     transparency="0"
+                     color="Red"
+                     wireframe="true"
+                     activeFlag="true"
+                     radius="15"
+                     length="0"
+                    />
+               </Part>
+          </PartPair>
+          <PartPair
+           name="tripot"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Part
+                name="left"
+                active="true"
+                userDefined="false"
+                location="(0 -200 225)"
+                cm_location="(0 0 13.8888888889)"
+                im_location="(0 0 0)"
+                part_num="-1"
+                mass="1.9851127075"
+                ixx="1101.8600905078"
+                iyy="1101.8600905078"
+                izz="813.8962100926"
+                ixy="0"
+                ixz="0"
+                iyz="0"
+                use_offdiagonal_terms="false"
+                default_cg="false"
+                user_sprung="true"
+                percent_sprung="100"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(0 0 1)"
+                     zp="(1.2246467991473532e-16 1 0)"
+                     euler="(0 0 0)"
+                    />
+               </Part>
+          </PartPair>
+          <SwitchPartPair
+           name="ARB_pickup"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <SwitchPart
+                name="left"
+                active="true"
+                userDefined="false"
+                index="1"
+               />
+          </SwitchPartPair>
+          <ConnectorPair
+           name="hub_compliance"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(1 0 0)"
+                     zp="(0 -1 0)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/MDI_hub_compliance.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           0 0 0
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 0
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+               </Connector>
+          </ConnectorPair>
+          <ConnectorPair
+           name="lca_front"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(0.03747366058909431 -2.0599841277224584e-16 -0.9992976157091807)"
+                     zp="(0.9989859196268294 0.024974647990670833 0.03746197198600612)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/mdi_0001.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[ ]]>
+                    </Comment>
+               </Connector>
+          </ConnectorPair>
+          <ConnectorPair
+           name="lca_rear"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="dependent"
+                     xp="(-0.037473660589094175 -3.122502256758253e-17 0.9992976157091807)"
+                     zp="(-0.9989859196268294 -0.02497464799067071 -0.037461971986005996)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/mdi_0001.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[ ]]>
+                    </Comment>
+               </Connector>
+          </ConnectorPair>
+          <ConnectorPair
+           name="subframe_front"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="zpxp"
+                     xp="(1 0 0)"
+                     zp="(0 0 1)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/mdi_0003.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[Front Subframe Mount]]>
+                    </Comment>
+               </Connector>
+          </ConnectorPair>
+          <ConnectorPair
+           name="subframe_rear"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="zpxp"
+                     xp="(1 0 0)"
+                     zp="(0 0 1)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/mdi_0003.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[Rear Subframe Mount]]>
+                    </Comment>
+               </Connector>
+          </ConnectorPair>
+          <ConnectorPair
+           name="top_mount"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Connector
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                generate_output_data="false"
+                req_active="false"
+                req_disp="false"
+                req_vel="false"
+                req_acc="false"
+                req_force="false"
+                i_marker_tolerance="(0 0 0)"
+                j_marker_tolerance="(0 0 0)"
+                req_offset="(0 0 0)"
+               >
+                    <Orientation
+                     name="orientation"
+                     active="true"
+                     userDefined="false"
+                     type="zpxp"
+                     xp="(1 0 0)"
+                     zp="(0 0 1)"
+                     euler="(0 0 0)"
+                    />
+                    <ConnectorContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bushings.tbl/mdi_0002.bus"
+                     definition=".ACAR.attachments.ac_bushing"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     type="bushing"
+                     t_preload_x="0"
+                     t_preload_y="0"
+                     t_preload_z="0"
+                     r_preload_x="0"
+                     r_preload_y="0"
+                     r_preload_z="0"
+                     t_offset_x="0"
+                     t_offset_y="0"
+                     t_offset_z="0"
+                     r_offset_x="0"
+                     r_offset_y="0"
+                     r_offset_z="0"
+                     input_stretch_x="1"
+                     input_stretch_y="1"
+                     input_stretch_z="1"
+                     output_stretch_x="1"
+                     output_stretch_y="1"
+                     output_stretch_z="1"
+                     time_stretch="1"
+                     use_friction="false"
+                    >
+                         <afc:VectorAttribute
+                          name="ktScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="krScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="ctScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <afc:VectorAttribute
+                          name="crScaleFactor"
+                         >
+                           1 1 1
+                         </afc:VectorAttribute>
+                         <LocalPartCompliance
+                          name="iPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                         <LocalPartCompliance
+                          name="jPartCompliance"
+                          active="true"
+                          userDefined="false"
+                         />
+                    </ConnectorContext>
+                    <Comment
+                     userDefined="false"
+                    >
+                      <![CDATA[Upper Strut Mount]]>
+                    </Comment>
+               </Connector>
+          </ConnectorPair>
+          <SpringPair
+           name="ride_spring"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Spring
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                activeFlag="true"
+               >
+                    <SpringContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/springs.tbl/mdi_0001_spr.xml"
+                     definition=".ACAR.forces.ac_spring"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     installMethod="installed_length"
+                     installValue="120"
+                    />
+               </Spring>
+          </SpringPair>
+          <DamperPair
+           name="ride_damper"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <Damper
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                activeFlag="true"
+               >
+                    <DamperContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/dampers.tbl/mdi_shk_0001.dpr"
+                     definition=".ACAR.forces.ac_damper"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     scaleFactor="1"
+                     input_stretch="1"
+                     output_stretch="1"
+                     time_stretch="1"
+                    />
+               </Damper>
+          </DamperPair>
+          <BumpStopPair
+           name="jounce_bumper"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <BumpStop
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                activeFlag="true"
+                metalToMetalRate="0"
+               >
+                    <BumperContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/bumpstops.tbl/mdi_0001.bum"
+                     definition=".ACAR.forces.ac_bumpstop"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     installMethod="clearance"
+                     installValue="156.011383"
+                    />
+               </BumpStop>
+          </BumpStopPair>
+          <ReboundStopPair
+           name="rebound_bumper"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <ReboundStop
+                name="left"
+                active="true"
+                userDefined="false"
+                attach_part_1="0"
+                attach_part_2="0"
+                attach_location_1="(0 0 0)"
+                attach_location_2="(0 0 0)"
+                activeFlag="true"
+                metalToMetalRate="0"
+               >
+                    <BumperContext
+                     active="true"
+                     propertyURI="mdids://acar_shared/reboundstops.tbl/mdi_0001.reb"
+                     definition=".ACAR.forces.ac_reboundstop"
+                     userDefined="false"
+                     context="default"
+                     offset="(0 0 0)"
+                     installMethod="clearance"
+                     installValue="150.410632"
+                    />
+               </ReboundStop>
+          </ReboundStopPair>
+          <IntParameter
+           name="driveline_active"
+           active="true"
+           userDefined="false"
+           value="0"
+          />
+          <IntParameter
+           name="kinematic_flag"
+           active="true"
+           userDefined="false"
+           value="0"
+          />
+          <IntParameter
+           name="hub_compliance_active"
+           active="true"
+           userDefined="false"
+           value="0"
+          />
+          <FloatParameter
+           name="hub_compliance_offset"
+           active="true"
+           userDefined="false"
+           value="0"
+          />
+          <FloatParameterPair
+           name="camber_angle"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <FloatParameter
+                name="left"
+                active="true"
+                userDefined="false"
+                value="0"
+               />
+          </FloatParameterPair>
+          <FloatParameterPair
+           name="drive_shaft_offset"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <FloatParameter
+                name="left"
+                active="true"
+                userDefined="false"
+                value="50"
+               />
+          </FloatParameterPair>
+          <FloatParameterPair
+           name="toe_angle"
+           active="true"
+           userDefined="false"
+           symmetry="left_right"
+          >
+               <FloatParameter
+                name="left"
+                active="true"
+                userDefined="false"
+                value="0"
+               />
+          </FloatParameterPair>
+          <ParameterTree
+           name="variants"
+           active="true"
+           userDefined="false"
+          />
+     </Subsystem>
+</afc>

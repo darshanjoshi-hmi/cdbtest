@@ -1,0 +1,7 @@
+# EXAMPLE BUSHING DESIGN
+
+ref.bus.damper_lower 		= '<x01>/bushings.tbl/MDI_damper_lwr_mount.bus'
+ref.bus.damper_upper 		= '<x01>/bushings.tbl/MDI_damper_upr_mount.bus'
+ref.bus.enginemount  		= '<x01>/bushings.tbl/MDI_engine_mount.bus'
+ref.bus.controlarm_lower  	= '<x02>/bushings.tbl/MDI_lwr_control_arm.bus'
+ref.bus.controlarm_bad  	= '<x01>/bushings.tbl/MDI_lwr_control_arm_bad.bus'
